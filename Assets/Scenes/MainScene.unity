@@ -905,6 +905,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 872366548244251588, guid: dbb76a6bc8a6cc04ea821d535b0beb44, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2248439192
+      objectReference: {fileID: 0}
     - target: {fileID: 2889728165193591065, guid: dbb76a6bc8a6cc04ea821d535b0beb44, type: 3}
       propertyPath: m_Name
       value: Player
@@ -948,14 +952,6 @@ PrefabInstance:
     - target: {fileID: 4214762427122388518, guid: dbb76a6bc8a6cc04ea821d535b0beb44, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4705090202336427283, guid: dbb76a6bc8a6cc04ea821d535b0beb44, type: 3}
-      propertyPath: m_ControllerManager.Controllers.Array.data[1].Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4705090202336427283, guid: dbb76a6bc8a6cc04ea821d535b0beb44, type: 3}
-      propertyPath: m_ControllerManager.Controllers.Array.data[0].Input.Gain
-      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6709028672906157858, guid: dbb76a6bc8a6cc04ea821d535b0beb44, type: 3}
       propertyPath: m_Camera
