@@ -85,7 +85,7 @@ PrefabInstance:
       addedObject: {fileID: 6804293568112516753}
     - targetCorrespondingSourceObject: {fileID: 168292, guid: 13755b5fbb6b69b4c81b942c6e32a512, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4842753714326179309}
+      addedObject: {fileID: 5232973700109433229}
   m_SourcePrefab: {fileID: 100100000, guid: 13755b5fbb6b69b4c81b942c6e32a512, type: 3}
 --- !u!1 &2201831020356777999 stripped
 GameObject:
@@ -113,7 +113,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 2.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4842753714326179309
+--- !u!114 &5232973700109433229
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,9 +122,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2201831020356777999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 163e2ceb32d72ed47abd47f080048012, type: 3}
+  m_Script: {fileID: 11500000, guid: 3de6cd89a6e045b4e952b1aa812058e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  messageText: Package Delivered
-  displayDuration: 2
-  message: {fileID: 0}
+  showMessage: {fileID: 0}
+  effect: {fileID: 3736404253395981884, guid: 5dcb977e14e6f6b438e6a91f26b45e35, type: 3}
